@@ -1,0 +1,56 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-19 07:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: age-verification.php:17
+msgid "Are"
+msgstr ""
+
+#: age-verification.php:17
+msgid "you"
+msgstr ""
+
+#: age-verification.php:17
+msgid "over 18"
+msgstr ""
+
+#: age-verification.php:17
+msgid "years old"
+msgstr ""
+
+#: age-verification.php:21
+msgid "No"
+msgstr ""
+
+#: age-verification.php:24
+msgid "Yes"
+msgstr ""
+
+#. Name of the plugin
+msgid "Age check"
+msgstr ""
+
+#. Description of the plugin
+msgid "Age verification pop-up."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://pimclick.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Gaël ROBIN"
+msgstr ""

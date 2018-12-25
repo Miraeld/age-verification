@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Age check\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-19 07:43+0000\n"
+"PO-Revision-Date: 2018-12-19 07:45+0000\n"
+"Last-Translator: Alexandre Pinon <alexandre2@luxury-concept.com>\n"
+"Language-Team: French (France)\n"
+"Language: fr-FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: age-verification.php:17
+msgid "Are"
+msgstr "Avez"
+
+#: age-verification.php:17
+msgid "you"
+msgstr "Vous"
+
+#: age-verification.php:17
+msgid "over 18"
+msgstr "plus de"
+
+#: age-verification.php:17
+msgid "years old"
+msgstr "18 ans ?"
+
+#: age-verification.php:21
+msgid "No"
+msgstr "Non"
+
+#: age-verification.php:24
+msgid "Yes"
+msgstr "Yes"
+
+#. Name of the plugin
+msgid "Age check"
+msgstr "Age check"
+
+#. Description of the plugin
+msgid "Age verification pop-up."
+msgstr "Age verification pop-up."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://pimclick.com"
+msgstr "https://pimclick.com"
+
+#. Author of the plugin
+msgid "Gaël ROBIN"
+msgstr "Gaël ROBIN"

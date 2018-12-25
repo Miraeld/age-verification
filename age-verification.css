@@ -1,0 +1,138 @@
+.age-verification-overlay {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.65);
+}
+.age-verification-popup {
+  position: fixed;
+  z-index: 9999;
+  left: 50%;
+  top: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+  width: 350px;
+  min-height: 350px;
+  text-align: center;
+  padding: 30px;
+  background: rgb(255, 255, 255);
+  border-radius:50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+}
+.age-verification-popup p {
+  font-size:45px;
+  text-transform:uppercase;
+  font-weight:bolder;
+  line-height:.8;
+  padding-left:10px;
+  padding-right:10px;
+  background: -webkit-linear-gradient(180deg, rgb(200, 218, 243),rgb(119, 155, 204));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.age-verification-popup a {
+  display: inline-block;
+  background: transparent;
+  color:white;
+  text-decoration: none;
+  transition: all .2s;
+  font-weight:bolder;
+  font-size:30px
+}
+
+
+.age-verification-yes a {
+color: rgb(214, 224, 239);
+transition:all .2s ease;
+}
+
+.age-verification-no a {
+color:white;
+transition:all .2s ease;
+}
+.age-verification-yes:hover a {
+color:   white;
+}
+.age-verification-no:hover a {
+color:   rgb(119, 155, 204);
+}
+
+.age-verification-no {
+  position:absolute;
+  left:-60px;
+  top:110px;
+  background-color:rgb(200, 218, 243);
+  border-radius:50%;
+  padding: 42px 42px;
+  box-shadow: -4.341px 24.62px 57px 0px rgba(59, 88, 128, 0.27);
+   transition:.3s all cubic-bezier(0, 0, 0, 1.79);
+}
+
+.age-verification-no:hover {
+  padding: 45px 43px;
+}
+.age-verification-yes:hover {
+  padding: 45px 43px;
+}
+
+.age-verification-yes {
+  position:absolute;
+  right:-50px;
+  top:110px;
+  background-color:rgb(119, 155, 204);
+  border-radius:50%;
+  padding: 40px 38px;
+   box-shadow: -4.341px 24.62px 57px 0px rgba(59, 88, 128, 0.27);
+   transition:.3s all cubic-bezier(0, 0, 0, 1.79);
+}
+@media (max-width:550px) {
+.age-verification-popup {
+    left: 60%!important;
+
+    width: 200px !important;;
+    min-height: 200px !important;
+}
+.age-verification-popup p {
+    font-size: 24px !important;;
+    line-height: .8;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: -webkit-linear-gradient(180deg, rgb(200, 218, 243),rgb(119, 155, 204));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.age-verification-no {
+    left: -35px !important;
+    top: 60px !important;
+    padding: 25px 20px !important;;
+}
+
+.age-verification-popup a {
+    font-size:20px !important;
+}
+
+.age-verification-yes {
+    right: -35px !important;
+    top: 60px !important;
+    padding: 25px 23px !important;;
+}
+.age-verification-no:hover {
+ padding: 30px 25px !important;
+}
+.age-verification-yes:hover {
+ padding: 30px 28px !important;
+}
+}
